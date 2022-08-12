@@ -1,0 +1,85 @@
+/* 全局样式表 */
+body,
+html,
+#app {
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+html {
+    background-color: #E9EAED;
+}
+
+* li {
+    list-style-type: none;
+}
+
+* a {
+    background-color: transparent;
+    text-decoration: none;
+    color: #fff;
+}
+
+.el-cascader-menu {
+    height: 180px;
+}
+
+.el-card {
+    margin-top: 15px;
+}
+
+.el-row,
+.el-col {
+    display: flex;
+    align-items: center;
+}
+
+.box-card {
+    margin-top: 15px;
+}
+
+.elTable {
+    margin-top: 10px;
+}
+
+.el-steps {
+    margin-top: 10px;
+}
+
+.el-step__title {
+    font-size: 14px;
+}
+
+.el-tabs {
+    margin-top: 15px;
+}
+
+.ql-editor {
+    min-height: 300px;
+}
+
+.left_box {
+    float: left;
+    width: 75%;
+    overflow: hidden;
+    /* background-color: #666; */
+}
+
+.right_box {
+    float: right;
+    width: 23.5%;
+    /* background-color: #ccc; */
+}
+.left {
+    width: 900px;
+    min-height: 1900px;
+}
+.wrap {
+    display: flex;
+    justify-content: space-between;
+  }
+.card_title {
+    border-bottom: 1px solid rgb(238, 238, 238);
+}
